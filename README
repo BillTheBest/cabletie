@@ -1,0 +1,8 @@
+						      last update: Jul 26, 2011
+
+[What is CableTie]
+	CableTie is an GUN/Linux based, open source projcet to implement simple WAN load balancing.
+
+[Non Goals]
+	CableTie would not support:
+	1. User-defined Firewall rules
