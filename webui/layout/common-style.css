@@ -1,0 +1,76 @@
+body { margin: 0; font-family: "dejavu sans", arial; font-size: 12px; }
+.percentage:after { content: '%'; }
+.XXX { color: #ff3333; }
+.wan-ok { color: #33ff33; }
+.wan-failed { color: #ff3333; }
+.wan-backup { color: #3333ff; }
+.wan-disabled { color: #333333; }
+input.simple-style { border: 1px dashed #000000; }
+
+div#page-wrapper { width: 1024px; margin: auto; } 
+div#banner-wrapper, div#menubar {
+	color: #ffffff; background-color: #000000; 
+	padding: 2px 5px;
+	margin: 0 0 5px 0; 
+} 
+div#banner-wrapper { position: relative; font-weight: bold; }
+div#banner-wrapper a, div#banner-wrapper a:visited { color: #ffffff; }
+div#menubar { text-align: right; }
+div#content-wrapper { overflow: auto; }
+div#product-title { font-size: 200%; }
+div#user-info { 
+	position: absolute; 
+	right: 0; bottom: 0; 
+	text-align: right; 
+	padding: 2px 5px; 
+}
+nav#navigator, div#main-body { float: left; }
+nav#navigator { 
+	width: 149px; 
+	font-size: 120%; 
+	border-top: 3px solid #000000;
+	border-bottom: 3px solid #000000;
+	padding: 1px 0 0 0;
+}
+nav a, nav a:visited { text-decoration: none; color: #000000; }
+div.nav-label { 
+	font-weight: bold; 
+	color: #ffffff; background-color: #000000; 
+	margin-bottom: 1px;
+	text-transform: capitalize;
+}
+div.folded:after { content: " +"; }
+div.unfolded:after { content: " -"; }
+ul.nav-category { padding: 0; margin: 0; }
+li.nav-item { 
+	margin-bottom: 1px; 
+	text-indent: 1em; 
+	text-transform: capitalize;
+}
+li.not-at:hover { background-color: #cccccc; color: #ffffff; }
+li.not-at:active { background-color: #000000; color: #ffffff; }
+li.now-at { background-color: #999999; color: #ffffff; }
+div#main-body { margin-left: 5px; }
+div#main-body table {
+	width: 870px; 
+	border-collapse: collapse; 
+	border-bottom: #000000 solid 3px; 
+	border-top: #000000 solid 3px;
+	margin-bottom: 5px;
+}
+div#main-body caption {
+	text-align: left; 
+	text-indent: 2px;
+	text-transform: capitalize;
+	font-size: 120%;
+	font-weight: bold; 
+	color: #ffffff; background-color: #000000;
+	margin-bottom: 1px;
+}
+div#main-body th { 
+	text-align: left;
+	text-transform: capitalize;
+	width: 125px; height: 28px; 
+}
+div#main-body tr.row2 { background-color: #eeeeee; }
+
